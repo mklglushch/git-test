@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: hsl(216, 15%, 48%);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.container {
+    margin-top: 120px;
+    width: 50vh;
+    height: auto;
+    border: solid;
+    border-color: white;
+    border-radius: 10%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column; /* Розташування елементів вертикально */
+    align-items: center; /* Вирівнювання по центру */
+    padding: 20px; /* Внутрішній відступ */
+}
+
+.blue-block {
+    width: 40vh;
+    height: 40vh; 
+    background-color: #0569ff;
+    border: solid;
+    border-color: #0569ff;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; /* Відступ між блоком і текстом */
+}
+
+img {
+    width: 25vh;
+    height: 25vh;
+}
+
+
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    padding: 10px; /* Відступи для кращого читання */
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+.text{
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    padding: 10px; /* Відступи для кращого читання */
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
